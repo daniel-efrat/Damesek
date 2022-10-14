@@ -1,5 +1,7 @@
 # Content v2 Minimal Starter
 
+change !
+
 Look at the [Content documentation](https://content-v2.nuxtjs.org/) to learn more.
 
 ## Setup
