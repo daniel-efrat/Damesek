@@ -36,7 +36,7 @@
 		return fetchContentNavigation(queryContent("blog"));
 	});
 	useHead({
-		title: "Content Blog",
+		title: "Blog",
 	});
 </script>
 <script>
