@@ -24,9 +24,9 @@
 
             <div
               id="player"
-              class="player w-full flex flex-col items-center relative mb-6 mt-6"
+              class="player w-full flex flex-col items-center relative mb-8 mt-6"
             >
-              <label id="labelHe" class="text-3xl font-extrabold mb-1" for="audio">{{
+              <label id="labelHe" class="text-xl sm:text-2xl md:text-3xl font-extrabold mb-1" for="audio">{{
                 songs.title
               }}</label>
               <label id="labelEn" dir="ltr" class="text-lg font-normal mb-1" for="audio"
