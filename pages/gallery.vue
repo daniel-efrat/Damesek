@@ -96,37 +96,37 @@
 
         <div
           class="image flex flex-col items-center w-full rounded opacity-80 hover:opacity-100 transition ease-in-out duration-500"
-        >
-          <img src="/images/מרגל בדמשק 1.png" alt="מרגל בדמשק" />
+       >
+          <img src="/images/spy1.png" alt="מרגל בדמשק" />
           <label class="mt-1" for="">מרגל בדמשק 1</label>
         </div>
 
         <div
           class="image flex flex-col items-center w-full rounded opacity-80 hover:opacity-100 transition ease-in-out duration-500"
         >
-          <img src="/images/מרגל בדמשק 2.png" alt="מרגל בדמשק" />
+          <img src="/images/spy2.png" alt="מרגל בדמשק" />
           <label class="mt-1" for="">מרגל בדמשק 2</label>
         </div>
 
         <div
           class="image flex flex-col items-center w-full rounded opacity-80 hover:opacity-100 transition ease-in-out duration-500"
         >
-          <img src="/images/מרגל בדמשק 3.png" alt="מרגל בדמשק" />
+          <img src="/images/spy3.png" alt="מרגל בדמשק" />
           <label class="mt-1" for="">מרגל בדמשק 3</label>
         </div>
 
         <div
           class="image flex flex-col items-center w-full rounded opacity-80 hover:opacity-100 transition ease-in-out duration-500"
         >
-          <img src="/images/מרגל בדמשק 4.png" alt="מרגל בדמשק" />
+          <img src="/images/spy4.png" alt="מרגל בדמשק" />
           <label class="mt-1" for="">מרגל בדמשק 4</label>
         </div>
 
         <div
           class="image flex flex-col items-center w-full rounded opacity-80 hover:opacity-100 transition ease-in-out duration-500 mb-20"
         >
-          <img src="/images/מרגל בדמשק 5.png" alt="מרגל בדמשק" />
-          <label class="mt-1" for="">מרגל בדמשק 5</label>
+          <img src="/images/spy5.png" alt="מרגל בדמשק" />
+          <label class="mt-1" for="">מרגל בדמשק 5</label> 
         </div>
       </div>
     </div>
