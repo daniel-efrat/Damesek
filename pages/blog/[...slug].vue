@@ -30,7 +30,7 @@
               >{{ songs.title }}
             </label>
 
-              <label id="labelEn" dir="ltr" class="text-xs font-normal mb-1" for="audio"
+              <label id="labelEn" dir="ltr" class="text-sm font-normal mb-3" for="audio"
                 >{{ songs.titleEn }}
               </label>
 
@@ -84,6 +84,8 @@ useHead({
   width: 90vw;
   box-shadow: -4px, -4px, 4px white;
   margin-top: -20px;
+  font-size: 17px;
+  line-height: 1.3rem;
 }
 @media (min-width: 600px) {
   #lyrics {

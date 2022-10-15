@@ -497,131 +497,23 @@ export default {
 * {
   font-family: "Times New Roman", Times, serif;
 }
-.block_ {
-  display: block;
-  margin-bottom: 0;
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 0;
-  padding-bottom: 0;
-  padding-left: 0;
-  padding-right: 0;
-  padding-top: 0;
-}
+
 .block_1 {
-  display: block;
-  margin-bottom: 0;
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 0;
-  padding-bottom: 0;
-  padding-left: 0;
-  padding-right: 0;
-  padding-top: 0;
   text-decoration: underline;
 }
-.block_2 {
-  display: block;
-  margin-bottom: 0;
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 0;
-  padding-bottom: 0;
-  padding-left: 0;
-  padding-right: 0;
-  padding-top: 0;
-}
-.block_3 {
-  display: block;
-  margin-bottom: 0;
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 0;
-  padding-bottom: 0;
-  padding-left: 0;
-  padding-right: 0;
-  padding-top: 0;
-  text-align: center;
-}
+
 .block_4 {
-  display: block;
   font-weight: bold;
-  margin-bottom: 0;
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 0;
-  padding-bottom: 0;
-  padding-left: 0;
-  padding-right: 0;
-  padding-top: 0;
   text-align: center;
 }
 .block_5 {
-  display: block;
   font-style: italic;
-  margin-bottom: 0;
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 0;
-  padding-bottom: 0;
-  padding-left: 0;
-  padding-right: 0;
-  padding-top: 0;
 }
-.block_6 {
-  display: block;
-  margin-bottom: 0;
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 0;
-  padding-bottom: 0;
-  padding-left: 0;
-  padding-right: 0;
-  padding-top: 0;
-}
-.block_7 {
-  display: block;
-  margin-bottom: 0;
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 0;
-  padding-bottom: 0;
-  padding-left: 0;
-  padding-right: 0;
-  padding-top: 0;
-}
+
 .block_8 {
-  display: block;
   font-style: italic;
-  margin-bottom: 0;
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 0;
-  padding-bottom: 0;
-  padding-left: 0;
-  padding-right: 0;
-  padding-top: 0;
 }
-.block_9 {
-  display: block;
-  margin-bottom: 0;
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 0;
-  padding-bottom: 0;
-  padding-left: 0;
-  padding-right: 0;
-  padding-top: 0;
-}
-.calibre {
-  display: block;
-  margin-bottom: 0;
-  margin-left: 5pt;
-  margin-right: 5pt;
-  margin-top: 0;
-  padding-left: 0;
-  padding-right: 0;
-}
+
 .calibre1 {
   display: table-row-group;
   vertical-align: top;
@@ -633,17 +525,7 @@ export default {
   margin-right: auto;
   margin-top: 0.5em;
 }
-.calibre4 {
-  display: block;
-  margin-bottom: 0;
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 0;
-  padding-bottom: 0;
-  padding-left: 0;
-  padding-right: 0;
-  padding-top: 0;
-}
+
 .calibre5 {
   display: table-row;
   vertical-align: inherit;
@@ -673,6 +555,9 @@ export default {
   text-align: inherit;
   vertical-align: top;
   min-width: 90px;
+}
+.israel {
+  min-width: 100px;
 }
 
 .text_3 {

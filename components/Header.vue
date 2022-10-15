@@ -215,7 +215,7 @@ nav {
 #shirim,
 #sgira {
 	position: relative;
-	border-bottom: 2px white solid;
+	border-bottom: 1.5px white solid;
 	padding-bottom: 0;
 	padding-right: 2px;
 	padding-left: 0px;
@@ -244,6 +244,11 @@ nav {
 	stroke-linejoin: round;
 	cursor: pointer;
 	z-index: 5000;
+}
+@media(max-width:600px){
+  #shirim, #sgira {
+    font-size: 13px;
+  }
 }
 
 </style>
