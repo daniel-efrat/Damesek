@@ -51,7 +51,7 @@
     </div>
 
     <div
-      class="list1 fixed top-0 right-0 left-0 bottom-0 mr-auto ml-auto grid h-screen w-screen items-start mt-8 justify-center"
+      class="list1 fixed top-0 right-0 left-0 bottom-0 mr-auto ml-auto grid h-screen w-screen items-start mt-32 justify-center"
     >
       <div dir="rtl">
         <div class="relative grid grid-cols-1 -mt-20 sm:mt-auto gap-1">
