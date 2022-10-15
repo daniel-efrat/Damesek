@@ -13,7 +13,6 @@
   background-repeat: no-repeat;
   z-index: 0;
 }
-
 .list {
   transform: translateY(-125vh);
   z-index: 5000;
@@ -39,13 +38,12 @@
   padding-left: 60px;
   border-radius: 20px;
 }
-.list-item {
+.list-item, h2 {
   text-shadow: 2px 2px 2px black;
   border-bottom: 1px solid white;
-  padding-bottom: 15px;
-  padding-top: 15px;
-  font-size: 14pt;
-  
+  padding-bottom: 10px;
+  padding-top: 10px;
+  font-size: 16pt;
 }
 @media (max-width: 600px) {
   #dropDown {
@@ -53,9 +51,12 @@
     height: 100vh;
     margin-top: 60px;
   }
-  
+  .list-item {
+  padding-bottom: 5px;
+  padding-top: 5px;
+  font-size: 14pt;
 }
-
+}
 .page-enter-active,
 .page-leave-active {
   transition: opacity 0.7s;

@@ -10,8 +10,8 @@
       <container
         class="titles w-screen h-fit m-4 relative flex flex-col items-center"
       >
-        <h1 class="galeria text-white text-6xl font-bold" dir="rtl">גלריה</h1>
-        <p dir="rtl" class="block_ text-md text-white">
+        <h1 class="galeria text-white text-4xl font-bold" dir="rtl">גלריה</h1>
+        <p dir="rtl" class="text-sm text-white mb-6">
           כל הציורים באתר נוצרו בעזרת
           <a
             class="underline underline-offset-3 text-md cursor-pointer text-orange"
@@ -22,7 +22,7 @@
         </p>
       </container>
 
-      <div class="gallery relative w-4/5 md:w-3/5 grid gap-6 mx-auto">
+      <div class="gallery relative w-4/5 md:w-3/5 grid gap-10 sm:gap-6 mx-auto">
         <!-- images -->
         <div
           class="image flex flex-col items-center w-full rounded opacity-80 hover:opacity-100 transition ease-in-out duration-500"
@@ -134,18 +134,18 @@
 </template>
 
 <script>
-export default {
-  layout: "song",
-};
+
 </script>
 
 <style scoped>
 * {
-  font-family: "Heebo";
+  font-family: "Heebo", sans-serif;
   color: white;
 }
 .galeria {
   text-shadow: 2px 2px 2px black;
+  border-bottom: 2px white solid;
+  margin-bottom: 15px;
 }
 a {
   color: orange;
@@ -155,7 +155,7 @@ a {
 }
 .image:hover {
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.425);
-  transform: scale(1.1);
+  transform: scale(1.2);
   z-index: 5;
 }
 .page-enter-active,

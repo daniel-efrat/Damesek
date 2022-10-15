@@ -26,13 +26,16 @@
               id="player"
               class="player w-full flex flex-col items-center relative mb-8 mt-6"
             >
-              <label id="labelHe" class="text-xl sm:text-2xl md:text-3xl font-extrabold mb-1" for="audio">{{
-                songs.title
-              }}</label>
-              <label id="labelEn" dir="ltr" class="text-lg font-normal mb-1" for="audio"
+              <label id="labelHe" class="text-2xl font-bold mb-1" for="audio"
+              >{{ songs.title }}
+            </label>
+
+              <label id="labelEn" dir="ltr" class="text-xs font-normal mb-1" for="audio"
                 >{{ songs.titleEn }}
               </label>
+
               <audio controls :src="songs.audio"></audio>
+
             </div>
          
           <ContentRenderer
@@ -55,13 +58,10 @@ const slug = useRoute().params.slug.toString().replace(/,/g, "/");
 const { data: songs } = await useAsyncData(slug, () => {
   return queryContent(slug).findOne();
 });
-
-
 useHead({
   title: `${songs.value.title}`,
 });
 </script>
-
 
 <style>
 #bg {
@@ -78,11 +78,12 @@ useHead({
   z-index: 0;
 }
 #lyrics {
-  background: rgba(0, 25, 100, 0.7);
+  background: rgba(0, 25, 100, 0.5);
   -webkit-backdrop-filter: blur(3px);
-  backdrop-filter: blur(3px);
+  backdrop-filter: blur(2px);
   width: 90vw;
   box-shadow: -4px, -4px, 4px white;
+  margin-top: -20px;
 }
 @media (min-width: 600px) {
   #lyrics {

@@ -55,12 +55,13 @@
     >
       <div dir="rtl">
         <div class="relative grid grid-cols-1 -mt-20 sm:mt-auto gap-1">
+          <h2 class="text-center text-2xl">שירים</h2>
           <template
-            v-for="(b, i) in blogNav[0].children"
-            :key="`blogNavItem-${b._path}-${i}`"
+          v-for="(b, i) in blogNav[0].children"
+          :key="`blogNavItem-${b._path}-${i}`"
           >
-            <ol class="list-inside list-none pl-2">
-              <li class="list-item text-sm text-gray-200 hover:text-orange-400 transition-all">
+            <ol class="list-inside list-none">
+              <li class="list-item">
                 <NuxtLink :to="`/blog${b._path}`"> {{ b.title }} </NuxtLink>
               </li>
             </ol>

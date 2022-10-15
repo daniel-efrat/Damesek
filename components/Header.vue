@@ -20,7 +20,7 @@
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
               fill="currentColor"
-              class="w-6 h-6 mt-3 hover:fill-orange"
+              class="w-6 h-6 mt-3 hover:fill-orange-400"
             >
               <path
                 fill-rule="evenodd"
@@ -35,7 +35,7 @@
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
               fill="currentColor"
-              class="w-6 h-6 mt-2 hover:fill-orange"
+              class="w-6 h-6 mt-2 hover:fill-orange-400"
               ref="homeIcon"
             >
               <path
@@ -50,7 +50,7 @@
         <!-- links dropdown -->
         <div
           id="button"
-          class="text-base absolute left-0 right-0 p-2 mr-auto -ml-6 sm:ml-auto cursor-pointer grid items-center justify-center"
+          class="text-base absolute left-0 right-0 p-2 mr-auto -ml-6 cursor-pointer grid items-center justify-center"
         >
           <div
             id="shirim"
@@ -113,19 +113,20 @@
     </nav>
     <!-- actual dropdown -->
     <div
-      class="list fixed w-screen h-screen mr-auto ml-auto top-0 right-0 left-0 bottom-0 grid items-center justify-center"
+      class="list fixed w-screen h-screen mr-auto ml-auto pt-10 top-0 right-0 left-0 bottom-0 sm:mt-auto grid items-center justify-center"
     >
       <div
         dir="rtl"
       >
 			
 				<div class="grid grid-cols-1 gap-1 relative ">
+          <h2 class="text-center text-2xl">שירים</h2>
+
 					<template
 						v-for="(b, i) in blogNav[0].children"
 						:key="`blogNavItem-${b._path}-${i}`"
 					>
-						
-							<ol class="list-none list-inside pl-2">
+							<ol class="list-none">
 								<li
 									class="list-item"
 								>
@@ -210,31 +211,6 @@ nav {
 	background-repeat: no-repeat;
 	z-index: 5001;
 }
-.list {
-	transform: translateY(-125vh);
-	z-index: 5000;
-	background: linear-gradient(
-    118.74deg,
-    rgba(255, 255, 255, 0.85) -9.92%,
-    rgba(1, 55, 183, 0.85) 24.49%,
-    rgba(0, 0, 0, 0.85) 54.61%,
-    rgba(255, 0, 0, 0.85) 116.82%
-  );
-	background-position: center;
-	background-repeat: no-repeat;
-	backdrop-filter: blur(5px);
-}
-#dropDown {
-	z-index: 5000;
-	font-family: "Heebo", sans-serif;
-	width: max-content;
-	height: max-content;
-	padding-bottom: 40px;
-	padding-top: 10px;
-	padding-right: 60px;
-	padding-left: 60px;
-	border-radius: 20px;
-}
 #shirim,
 #sgira {
 	position: relative;
@@ -253,13 +229,7 @@ nav {
 .orange {
 	color: #ffa500;
 }
-.list-item {
-	text-shadow: 2px 2px 2px black;
-	border-bottom: 1px solid white;
-	padding-bottom: 15px;
-	padding-top: 15px;
-	font-size: 14pt;
-}
+
 .icon {
 	position: relative;
 	top: 50%;
@@ -274,12 +244,5 @@ nav {
 	cursor: pointer;
 	z-index: 5000;
 }
-@media 
-	(max-width:600px) {
-				#dropDown {
-    width: 100vw;
-				height: 100vh;
-				margin-top: 60px;
-			}
-		}
+
 </style>

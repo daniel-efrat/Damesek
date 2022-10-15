@@ -16,9 +16,7 @@ module.exports = {
 			colors: {
 				
 			},
-			fontFamily: {
-				sans: ["Heebo"],
-			},
+			
 		},
 	},
 	plugins: [require("@tailwindcss/typography")],

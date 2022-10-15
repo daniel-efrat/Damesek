@@ -594,11 +594,9 @@
      
 </template>
 
-
-
 <style scoped>
 * {
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
 }
 .block_,
 .block_1,
@@ -624,11 +622,9 @@
 }
 
 .block_5 {
-  
   text-align: center;
 }
 .block_6 {
- 
   text-align: center;
 }
 .block_7 {
@@ -689,34 +685,34 @@
   width: 20%;
 }
 .text_ {
-  font-family: 'Times New Roman', serif;
+  font-family: "Times New Roman", serif;
   line-height: 1.2;
   text-decoration: underline;
 }
 
 .text_2 {
-  font-family: 'Times New Roman', serif;
+  font-family: "Times New Roman", serif;
   font-style: italic;
   line-height: 1.2;
 }
 .text_3 {
-  font-family: 'Times New Roman', serif;
+  font-family: "Times New Roman", serif;
   line-height: 1.2;
 }
 .text_4 {
-  font-family: 'Times New Roman', serif;
+  font-family: "Times New Roman", serif;
 }
 .text_5 {
-  font-family: 'Times New Roman', serif;
+  font-family: "Times New Roman", serif;
   font-weight: bold;
   line-height: 1.2;
   text-decoration: underline;
 }
 .text_6 {
-  font-family: 'Times New Roman', serif;
+  font-family: "Times New Roman", serif;
 }
 .text_7 {
-  font-family: 'Times New Roman', serif;
+  font-family: "Times New Roman", serif;
   font-style: italic;
 }
 .text_8 {
