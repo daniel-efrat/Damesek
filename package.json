@@ -11,9 +11,13 @@
     "@nuxt/content": "^2.0.0",
     "@nuxtjs/tailwindcss": "^5.1.2",
     "@tailwindcss/typography": "^0.5.2",
-    "nuxt": "^3.0.0-rc.3"
+    "nuxt": "^3.0.0-rc.3",
+    "prettier": "^2.7.1",
+    "prettier-plugin-tailwindcss": "^0.1.13"
   },
   "dependencies": {
-    "gsap": "^3.11.3"
+    "gsap": "^3.11.3",
+    "sass": "^1.55.0",
+    "sass-loader": "^13.1.0"
   }
 }

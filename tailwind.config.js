@@ -14,10 +14,7 @@ module.exports = {
 	theme: {
 		extend: {
 			colors: {
-				primary: {
-					DEFAULT: colors.violet[700],
-					...colors.violet,
-				},
+				
 			},
 			fontFamily: {
 				sans: ["Heebo"],

@@ -50,7 +50,7 @@
         <!-- links dropdown -->
         <div
           id="button"
-          class="text-base absolute left-0 right-0 p-2 -ml-12 mr-auto cursor-pointer grid items-center justify-center"
+          class="text-base absolute left-0 right-0 p-2 mr-auto -ml-6 sm:ml-auto cursor-pointer grid items-center justify-center"
         >
           <div
             id="shirim"
@@ -108,7 +108,7 @@
           </div>
         </div>
         <!-- logo -->
-        <Logo-o class="w-24 relative sm:w-32 -mr-8" />
+        <Logo-o class="w-20 relative sm:w-24 -mr-12 mt-2" />
       </div>
     </nav>
     <!-- actual dropdown -->
@@ -127,9 +127,9 @@
 						
 							<ol class="list-none list-inside pl-2">
 								<li
-									class="list-item text-sm text-gray-200  transition-all"
+									class="list-item"
 								>
-									<NuxtLink :to="`/blog${b._path}`"> {{b.title}} </NuxtLink>
+									<NuxtLink :to="`/blog${b._path}`" class="hover:text-orange-400"> {{b.title}} </NuxtLink>
 								</li>
 							</ol>
 					</template>
@@ -158,19 +158,19 @@ export default {
   methods: {
     shirimHover() {
       this.$refs.down.classList.add("fill-orange-400");
-      this.$refs.pShirim.classList.add("text-orange-400");
+      this.$refs.pShirim.classList.add("orange");
     },
     shirimLeave() {
       this.$refs.down.classList.remove("fill-orange-400");
-      this.$refs.pShirim.classList.remove("text-orange-400");
+      this.$refs.pShirim.classList.remove("orange");
     },
     sgiraHover() {
       this.$refs.up.classList.add("fill-orange-400");
-      this.$refs.pSgira.classList.add("text-orange-400");
+      this.$refs.pSgira.classList.add("orange");
     },
     sgiraLeave() {
       this.$refs.up.classList.remove("fill-orange-400");
-      this.$refs.pSgira.classList.remove("text-orange-400");
+      this.$refs.pSgira.classList.remove("orange");
     },
 
     drop() {
@@ -193,95 +193,93 @@ export default {
   },
 };
 </script>
-<style scoped>
+<style lang="scss"
+scoped>
 * {
-  color: white;
+	color: white;
 }
 nav {
-  background: linear-gradient(
+	background: linear-gradient(
     118.74deg,
     rgba(255, 255, 255, 0.95) -9.92%,
     rgba(1, 55, 183, 0.95) 24.49%,
     rgba(0, 0, 0, 0.95) 54.61%,
     rgba(255, 0, 0, 0.95) 116.82%
   );
-  background-position: center;
-  background-repeat: no-repeat;
-  z-index: 5001;
+	background-position: center;
+	background-repeat: no-repeat;
+	z-index: 5001;
 }
 .list {
-  transform: translateY(-125vh);
-  z-index: 5000;
-  background: linear-gradient(
+	transform: translateY(-125vh);
+	z-index: 5000;
+	background: linear-gradient(
     118.74deg,
     rgba(255, 255, 255, 0.85) -9.92%,
     rgba(1, 55, 183, 0.85) 24.49%,
     rgba(0, 0, 0, 0.85) 54.61%,
     rgba(255, 0, 0, 0.85) 116.82%
   );
-  background-position: center;
-  background-repeat: no-repeat;
-  backdrop-filter: blur(5px);
+	background-position: center;
+	background-repeat: no-repeat;
+	backdrop-filter: blur(5px);
 }
 #dropDown {
-  z-index: 5000;
-  font-family: "Heebo", sans-serif;
-  width: max-content;
-  height: max-content;
-  padding-bottom: 40px;
-  padding-top: 10px;
-  padding-right: 60px;
-  padding-left: 60px;
-  border-radius: 20px;
+	z-index: 5000;
+	font-family: "Heebo", sans-serif;
+	width: max-content;
+	height: max-content;
+	padding-bottom: 40px;
+	padding-top: 10px;
+	padding-right: 60px;
+	padding-left: 60px;
+	border-radius: 20px;
 }
 #shirim,
 #sgira {
-  position: relative;
-  border-bottom: 2px white solid;
-  padding-bottom: 0;
-  padding-right: 2px;
-  padding-left: 0px;
-  margin-left: 25px;
-  font-size: 14px;
-  font-family: "Heebo", sans-serif;
+	position: relative;
+	border-bottom: 2px white solid;
+	padding-bottom: 0;
+	padding-right: 2px;
+	padding-left: 0px;
+	margin-left: 25px;
+	font-size: 14px;
+	font-family: "Heebo", sans-serif;
 }
 #shirim:hover,
 #sgira:hover {
-  border-color: #ffa500;
-  color: #ffa500
+	border-color: #ffa500;
+}
+.orange {
+	color: #ffa500;
 }
 .list-item {
-  text-shadow: 2px 2px 2px black;
-  border-bottom: 1px solid white;
-  padding-bottom: 15px;
-  padding-top: 15px;
-  font-size: 14pt;
-  
+	text-shadow: 2px 2px 2px black;
+	border-bottom: 1px solid white;
+	padding-bottom: 15px;
+	padding-top: 15px;
+	font-size: 14pt;
 }
-
-
 .icon {
-  position: relative;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 100%;
-  height: 100%;
-  fill: none;
-  stroke-width: 6;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  cursor: pointer;
-  z-index: 5000;
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 100%;
+	height: 100%;
+	fill: none;
+	stroke-width: 6;
+	stroke-linecap: round;
+	stroke-linejoin: round;
+	cursor: pointer;
+	z-index: 5000;
 }
-@media (max-width: 600px) {
- 
- 
-  #dropDown {
+@media 
+	(max-width:600px) {
+				#dropDown {
     width: 100vw;
-    height: 100vh;
-    margin-top: 60px;
-  }
-  
-}
+				height: 100vh;
+				margin-top: 60px;
+			}
+		}
 </style>

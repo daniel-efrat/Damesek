@@ -8,12 +8,12 @@
 </script>
 <style>
 #bg {
-  z-index: 0;
   background: linear-gradient(118.74deg, rgba(255, 255, 255, 0.95) -9.92%, rgba(1, 55, 183, 0.95) 24.49%, rgba(0, 0, 0, 0.95) 54.61%, rgba(255, 0, 0, 0.95) 116.82%);
   background-position: center;
   background-repeat: no-repeat;
   z-index: 0;
 }
+
 .list {
   transform: translateY(-125vh);
   z-index: 5000;
@@ -47,10 +47,18 @@
   font-size: 14pt;
   
 }
+@media (max-width: 600px) {
+  #dropDown {
+    width: 100vw;
+    height: 100vh;
+    margin-top: 60px;
+  }
+  
+}
 
 .page-enter-active,
 .page-leave-active {
-  transition: opacity 0.5s;
+  transition: opacity 0.7s;
 }
 .page-enter,
 .page-leave-to {

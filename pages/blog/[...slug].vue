@@ -12,6 +12,7 @@
               id="bg"
               class="fixed w-screen h-screen ml-auto mr-auto inset-0"
             >
+         
               <img
                 id="art"
                 :src="songs.image"
@@ -23,12 +24,12 @@
 
             <div
               id="player"
-              class="player w-full flex flex-col items-center relative mb-8 mt-8"
+              class="player w-full flex flex-col items-center relative mb-6 mt-6"
             >
-              <label id="labelHe" class="text-3xl" for="audio">{{
+              <label id="labelHe" class="text-3xl font-extrabold mb-1" for="audio">{{
                 songs.title
               }}</label>
-              <label id="labelEn" dir="ltr" class="text-lg font-normal" for="audio"
+              <label id="labelEn" dir="ltr" class="text-lg font-normal mb-1" for="audio"
                 >{{ songs.titleEn }}
               </label>
               <audio controls :src="songs.audio"></audio>
@@ -61,6 +62,7 @@ useHead({
 });
 </script>
 
+
 <style>
 #bg {
   z-index: 0;
@@ -80,6 +82,7 @@ useHead({
   -webkit-backdrop-filter: blur(3px);
   backdrop-filter: blur(3px);
   width: 90vw;
+  box-shadow: -4px, -4px, 4px white;
 }
 @media (min-width: 600px) {
   #lyrics {
@@ -96,13 +99,5 @@ useHead({
 
 nuxt-link {
   text-decoration: none;
-}
-.page-enter-active,
-.page-leave-active {
-  transition: opacity 0.5s;
-}
-.page-enter,
-.page-leave-to {
-  opacity: 0;
 }
 </style>
