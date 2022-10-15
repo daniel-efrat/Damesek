@@ -598,11 +598,7 @@
      
 </template>
 
-<script>
-export default {
-  layout: 'song',
-}
-</script>
+
 
 <style scoped>
 * {

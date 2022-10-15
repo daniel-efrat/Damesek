@@ -1,7 +1,7 @@
 <template>
         <div
           id="lyrics"
-          class="p-5 mx-5 md:p-12 rounded-xl shadow-2xl z-30 absolute ml-auto mr-auto w-full h-max inset-0 mt-40"
+          class="p-5 mx-5 md:p-12 rounded-xl shadow-2xl z-30 relative ml-auto mr-auto w-full h-max inset-0 "
         >
           <table dir="rtl" class="table_">
             <tbody class="calibre1">
