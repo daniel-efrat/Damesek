@@ -1,7 +1,7 @@
 <template>
 	<header class="relative flex items-center justify-between h-20 px-[5%] lg:px-[15%] bg-gray-900 text-gray-500">
 		<NuxtLink to="/" class="font-bold text-2xl lg:text-4xl">
-			<span class="text-primary">C</span>ontent
+			<span >C</span>ontent
 		</NuxtLink>
 		<nav class="flex items-center space-x-7 text-gray-600">
 			<template v-for="(n, i) in links" :key="`navLink-${i}`">
@@ -39,9 +39,7 @@
 </script>
 
 <style scoped>
-	.nav-link.router-link-active.router-link-exact-active {
-		@apply text-primary;
-	}
+	
 	header {
 		z-index: 5000;
 	}
