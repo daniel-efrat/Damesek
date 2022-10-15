@@ -250,5 +250,11 @@ nav {
     font-size: 13px;
   }
 }
+@media(max-height:600px) {
+  .list {
+    transform: translateY(-200vh);
+    height: max-content;
+  }
+}
 
 </style>

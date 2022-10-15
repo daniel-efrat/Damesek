@@ -61,10 +61,14 @@
   .list {
     margin-top: 25px;
   }
+  .list1 {
+    margin-top: 25px;
+  }
   .list-item {
     font-size: 16pt;
   }
 }
+
 .page-enter-active,
 .page-leave-active {
   transition: opacity 0.7s;

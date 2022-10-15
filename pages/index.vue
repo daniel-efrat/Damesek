@@ -1,6 +1,6 @@
 <template>
   <div
-    class="relative grid h-screen w-screen items-center justify-center overflow-hidden"
+    class="main relative grid h-screen w-screen items-center justify-center overflow-hidden"
   >
     <div id="bg" class="fixed inset-0 ml-auto mr-auto h-screen w-screen"></div>
     <div id="bg2" class="fixed inset-0 ml-auto mr-auto h-screen w-screen"></div>
