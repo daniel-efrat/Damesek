@@ -54,7 +54,7 @@
       class="list1 fixed top-0 right-0 left-0 bottom-0 mr-auto ml-auto grid h-screen w-screen items-center justify-center"
     >
       <div dir="rtl">
-        <div class="relative grid grid-cols-1 gap-1">
+        <div class="relative grid grid-cols-1 -mt-20 sm:mt-auto gap-1">
           <template
             v-for="(b, i) in blogNav[0].children"
             :key="`blogNavItem-${b._path}-${i}`"
