@@ -580,12 +580,8 @@
                   </p>
                 </td>
               </tr>
-              <tr class="tr_1">
-                <td class="td_">
-                  <p dir="rtl" class="block_">
-                    <span dir="ltr" class="calibre1"></span>
-                  </p>
-                </td>
+              <tr class="tr_1">   
+                <td class="td_"><p dir="rtl" class="block_2">חַאפֵז:</p></td>
                 <td colspan="3" class="td_">
                   <p dir="rtl" class="block_7">אז מדרכה של אמא לא אסטה:</p>
                   <p dir="rtl" class="block_7">קח מטאטא…</p>
