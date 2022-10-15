@@ -62,7 +62,7 @@
     margin-top: 25px;
   }
   .list-item {
-    font-size: 12pt;
+    font-size: 14pt;
   }
 }
 .page-enter-active,
