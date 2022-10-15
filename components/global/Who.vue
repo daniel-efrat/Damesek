@@ -1,5 +1,5 @@
 <template>
-  <div id="lyrics" class="relative z-30 rounded-xl p-3 shadow-2xl md:p-12">
+  <div id="lyrics" class="relative z-30 rounded-xl p-1 shadow-2xl md:p-12">
     <table dir="rtl" class="table_">
       <tbody class="calibre1">
         <tr class="tr_">

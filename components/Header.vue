@@ -113,13 +113,13 @@
     </nav>
     <!-- actual dropdown -->
     <div
-      class="list fixed w-screen h-screen mr-auto ml-auto top-0 right-0 left-0 bottom-0 pb-8 sm:mt-auto grid items-center justify-center"
+      class="list fixed w-screen h-screen mr-auto ml-auto top-0 right-0 left-0 bottom-0 pb-8 pt-20 sm:mt-auto grid items-start justify-center"
     >
       <div
         dir="rtl"
       >
 			
-				<div class="grid grid-cols-1 gap-1 relative ">
+				<div class="grid grid-cols-1 gap-1 relative">
 
           <h2 class="text-center text-2xl">שירים</h2>
 

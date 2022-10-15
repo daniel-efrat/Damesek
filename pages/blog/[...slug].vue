@@ -33,11 +33,8 @@
               <label id="labelEn" dir="ltr" class="text-sm font-normal mb-3" for="audio"
                 >{{ songs.titleEn }}
               </label>
-
               <audio controls :src="songs.audio"></audio>
-
             </div>
-         
           <ContentRenderer
             class="blog-link text-white relative ml-auto mr-auto grid items-center"
             :value="songs"
@@ -81,25 +78,24 @@ useHead({
   background: rgba(0, 25, 100, 0.5);
   -webkit-backdrop-filter: blur(3px);
   backdrop-filter: blur(2px);
-  width: 90vw;
+  width: 100vw;
   box-shadow: -4px, -4px, 4px white;
   margin-top: -20px;
-  font-size: 17px;
-  line-height: 1.3rem;
+  font-size: 17.5px;
+  line-height: 1.5rem;
 }
 @media (min-width: 600px) {
   #lyrics {
-    font-size: 19px;
+    font-size: 21px;
+    line-height: 1.7rem;
     width: 80vw;
   }
 }
 @media (min-width: 1000px) {
   #lyrics {
-    font-size: 19px;
     width: 60vw;
   }
 }
-
 nuxt-link {
   text-decoration: none;
 }
