@@ -57,6 +57,14 @@
   font-size: 14pt;
 }
 }
+@media (max-width:300px){
+  .list {
+    margin-top: 25px;
+  }
+  .list-item {
+    font-size: 12pt;
+  }
+}
 .page-enter-active,
 .page-leave-active {
   transition: opacity 0.7s;
