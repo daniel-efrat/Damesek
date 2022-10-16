@@ -75,25 +75,29 @@ useHead({
   z-index: 0;
 }
 #lyrics {
+  font-family: 'Times New Roman', Times, serif;
   background: rgba(0, 25, 100, 0.5);
   -webkit-backdrop-filter: blur(3px);
   backdrop-filter: blur(2px);
-  width: 100vw;
+  width: 97vw;
   box-shadow: -4px, -4px, 4px white;
   margin-top: -20px;
+  padding: 10px;
   font-size: 17.5px;
-  line-height: 1.5rem;
 }
+
 @media (min-width: 600px) {
   #lyrics {
     font-size: 21px;
-    line-height: 1.7rem;
+    line-height: 2rem;
     width: 80vw;
+    padding:1rem 2rem;
   }
 }
 @media (min-width: 1000px) {
   #lyrics {
     width: 60vw;
+    padding: 2rem 4rem;
   }
 }
 nuxt-link {

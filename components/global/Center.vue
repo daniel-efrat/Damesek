@@ -123,7 +123,7 @@
               ><span class="text_1" dir="ltr"></span
               ><span class="text_2">[חברי הקבינט מריעים] </span
               ><span class="text_3"
-                >אִנְשַאללַّה נזכור תמיד על מה אנחנו נלחמים!</span
+                >אִנְשַאללַה נזכור תמיד על מה אנחנו נלחמים!</span
               ><span class="text_1" dir="ltr"></span>
             </p>
           </td>
@@ -145,14 +145,14 @@
           <td class="td_1"><p dir="rtl" class="calibre5">המון:</p></td>
           <td class="td_">
             <p dir="rtl" class="block_9">חַ'אתַה אַל נָאסַר</p>
-            <p dir="rtl" class="block_9">נַחְנוּ אַל סַאוּרָה! [וכו'...]</p>
+            <p dir="rtl" class="block_9">נַחְנוּ אַל סַאוּרָה!</p>
           </td>
           <td class="td_">
             <p dir="rtl" class="block_1">
               <span class="text_1" dir="ltr"></span
-              ><span class="text_2">[או בעברית &ndash;]ברוח! בדם!</span>
+              ><span class="text_2">ברוח! בדם!</span>
             </p>
-            <p dir="rtl" class="block_9">נפדה את כבוד העם! [וכו'...]</p>
+            <p dir="rtl" class="block_9">נפדה את כבוד העם!</p>
           </td>
         </tr>
         <tr class="tr_1">
@@ -330,10 +330,6 @@ export default {
 </script>
 
 <style scoped>
-* {
-  font-family: "Times New Roman", Times, serif;
-}
-
 .block_1 {
   display: block;
 }

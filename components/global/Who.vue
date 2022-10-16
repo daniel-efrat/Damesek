@@ -234,9 +234,6 @@ export default {};
 </script>
 
 <style scoped>
-* {
-  font-family: "Times New Roman", Times, serif;
-}
 .block_ {
   font-weight: bold;
   text-decoration: underline;

@@ -119,8 +119,7 @@
             <p dir="rtl" class="block_6">לרגע שכחתי, והנה נזכרתי,</p>
             <p dir="rtl" class="block_2">
               <span class="text_2">
-                אז תְ'פָאדַל כַּמָאל ו… סַלָאם
-                <span class="calibre6">.</span>
+                אז תְ'פָאדַל כַּמָאל ו… סַלָאם.
               </span>
             </p>
           </td>
@@ -847,146 +846,24 @@ export default {};
   opacity: 0.3;
 }
 
-.block_ {
-  display: block;
-  margin-bottom: 0;
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 0;
-  padding-bottom: 0;
-  padding-left: 0;
-  padding-right: 0;
-  padding-top: 0;
-}
-.block_1 {
-  display: block;
-  font-family: serif;
 
-  line-height: 1.5;
-  margin-bottom: 0;
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 0;
-  padding-bottom: 0;
-  padding-left: 0;
-  padding-right: 0;
-  padding-top: 0;
-}
-.block_2 {
-  display: block;
-  font-family: serif;
-
-  line-height: 1.15;
-  margin-bottom: 0;
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 0;
-  padding-bottom: 0;
-  padding-left: 0;
-  padding-right: 0;
-  padding-top: 0;
-}
-.block_3 {
-  display: block;
-  line-height: 1.2;
-  margin-bottom: 0;
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 0;
-  padding-bottom: 0;
-  padding-left: 0;
-  padding-right: 0;
-  padding-top: 0;
-}
 .block_4 {
-  display: block;
 
-  line-height: 1.15;
-  margin-bottom: 0;
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 0;
-  padding-bottom: 0;
-  padding-left: 0;
-  padding-right: 0;
-  padding-top: 0;
   text-align: center;
 }
 .block_5 {
-  display: block;
   font-weight: bold;
-  margin-bottom: 0;
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 0;
-  padding-bottom: 0;
-  padding-left: 0;
-  padding-right: 0;
-  padding-top: 0;
   text-align: center;
 }
 .block_6 {
   display: block;
   font-style: italic;
-  line-height: 1.2;
-  margin-bottom: 0;
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 0;
-  padding-bottom: 0;
-  padding-left: 0;
-  padding-right: 0;
-  padding-top: 0;
+
 }
 .block_7 {
-  display: block;
   font-style: italic;
-  line-height: 1.2;
-  margin-bottom: 0;
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 0;
-  padding-bottom: 0;
-  padding-left: 0;
-  padding-right: 0;
-  padding-top: 0;
-  text-indent: 0;
 }
-.block_8 {
-  display: block;
-  font-family: serif;
 
-  margin-bottom: 0;
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 0;
-  padding-bottom: 0;
-  padding-left: 0;
-  padding-right: 0;
-  padding-top: 0;
-}
-.block_9 {
-  display: block;
-  line-height: 1.15;
-  margin-bottom: 0;
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 0;
-  padding-bottom: 0;
-  padding-left: 0;
-  padding-right: 0;
-  padding-top: 0;
-}
-.calibre {
-  display: block;
-  font-family: "Times New Roman", serif;
-  margin-bottom: 0;
-  margin-left: 5pt;
-  margin-right: 5pt;
-  margin-top: 0;
-  padding-left: 0;
-  padding-right: 0;
-}
 .calibre1 {
   display: table-row-group;
   vertical-align: middle;
@@ -995,9 +872,7 @@ export default {};
   display: table-row;
   vertical-align: inherit;
 }
-.calibre3 {
-  line-height: 1.2;
-}
+
 .calibre4 {
   display: block;
   height: 2px;
@@ -1018,19 +893,15 @@ export default {};
   padding-top: 0;
 }
 .calibre6 {
-  line-height: 1.2;
   white-space: pre-wrap;
 }
 .calibre7 {
   font-weight: bold;
-  line-height: 1.2;
 }
 .calibre8 {
   font-style: italic;
-  line-height: 1.2;
 }
 .tab {
-  line-height: 1.2;
   white-space: pre;
 }
 .table_ {
@@ -1046,8 +917,8 @@ export default {};
   text-indent: 0;
   width: 100%;
 }
-.td_ {
-  background-color: transparent;
+.td_,.td_1,.td_2,.td_3,.td_4,.td_5,.td_6
+ {
   display: table-cell;
   padding-bottom: 0.5ex;
   padding-left: 0;
@@ -1056,106 +927,24 @@ export default {};
   text-align: inherit;
   vertical-align: top;
 }
-.td_1 {
-  background-color: transparent;
-  display: table-cell;
-  padding-bottom: 0.5ex;
-  padding-left: 0;
-  padding-right: 0;
-  padding-top: 0.5ex;
-  text-align: inherit;
-  vertical-align: top;
-}
-.td_2 {
-  background-color: transparent;
-  display: table-cell;
-  padding-bottom: 0.5ex;
-  padding-left: 0px;
-  padding-right: 0;
-  padding-top: 0.5ex;
-  text-align: inherit;
-  vertical-align: top;
-}
-.td_3 {
-  background-color: transparent;
-  display: table-cell;
-  padding-bottom: 0;
-  padding-left: 0;
-  padding-right: 0;
-  padding-top: 0.5ex;
-  text-align: inherit;
-  vertical-align: top;
-}
-.td_4 {
-  background-color: transparent;
-  display: table-cell;
-  padding-bottom: 0;
-  padding-left: 0;
-  padding-right: 0;
-  padding-top: 0;
-  text-align: inherit;
-  vertical-align: top;
-}
-.td_5 {
-  background-color: transparent;
-  display: table-cell;
-  padding-bottom: 0.5ex;
-  padding-left: 0;
-  padding-right: 0;
-  padding-top: 0;
-  text-align: inherit;
-  vertical-align: top;
-}
-.td_6 {
-  background-color: transparent;
-  display: table-cell;
-  padding-bottom: 0.5ex;
-  padding-left: 0;
-  padding-right: 0;
-  padding-top: 0.5ex;
-  text-align: inherit;
-  vertical-align: top;
-}
-.text_ {
-  font-family: "Times New Roman", serif;
 
+.text_ {
   text-decoration: underline;
 }
 
 .text_2 {
-  font-family: "Times New Roman", serif;
-
   font-style: italic;
-  line-height: 1.2;
 }
-.text_3 {
-  font-family: "Times New Roman", serif;
 
-  line-height: 1.2;
-}
 .text_4 {
-  font-family: "Times New Roman", serif;
-
   font-weight: bold;
-  line-height: 1.2;
 }
 .text_5 {
-  font-family: "Times New Roman", serif;
-
   font-style: italic;
-}
-.text_6 {
-  font-family: "Times New Roman", serif;
 }
 .text_7 {
   font-style: italic;
   font-weight: bold;
-  line-height: 1.2;
-}
-.text_8 {
-  font-family: "Times New Roman", serif;
-
-  line-height: 1.2;
 }
 .tr_ {
   display: table-row;

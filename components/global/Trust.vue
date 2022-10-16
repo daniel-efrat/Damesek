@@ -9,9 +9,6 @@ export default {
 };
 </script>
 <style>
-* {
-  font-family: "Times New Roman", Times, serif;
-}
 .page-enter-active,
 .page-leave-active {
   transition: opacity 0.5s;

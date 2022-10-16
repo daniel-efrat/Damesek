@@ -275,149 +275,30 @@ export default {
 };
 </script>
 <style scoped>
-* {
-  font-family: "Times New Roman", Times, serif;
-}
 #art {
   mix-blend-mode: color-dodge;
   opacity: 0.3;
 }
-.block_ {
-  display: block;
 
-  margin-bottom: 0;
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 0;
-  padding-bottom: 0;
-  padding-left: 0;
-  padding-right: 0;
-  padding-top: 0;
-}
-.block_1 {
-  display: block;
-  font-family: serif;
 
-  line-height: 1.5;
-  margin-bottom: 0;
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 0;
-  padding-bottom: 0;
-  padding-left: 0;
-  padding-right: 0;
-  padding-top: 0;
-}
-.block_2 {
-  display: block;
-  font-family: serif;
-
-  line-height: 1.15;
-  margin-bottom: 0;
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 0;
-  padding-bottom: 0;
-  padding-left: 0;
-  padding-right: 0;
-  padding-top: 0;
-}
 .block_3 {
-  display: block;
-
-  line-height: 1.15;
-  margin-bottom: 0;
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 0;
-  padding-bottom: 0;
-  padding-left: 0;
-  padding-right: 0;
-  padding-top: 0;
+  
   text-align: center;
 }
 .block_4 {
-  display: block;
-
-  margin-bottom: 0;
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 0;
-  padding-bottom: 0;
-  padding-left: 0;
-  padding-right: 0;
-  padding-top: 0;
   text-align: center;
 }
-.block_5 {
-  display: block;
-  font-family: serif;
 
-  margin-bottom: 0;
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 0;
-  padding-bottom: 0;
-  padding-left: 0;
-  padding-right: 0;
-  padding-top: 0;
-}
 .block_6 {
-  display: block;
   font-style: italic;
-  line-height: 1.2;
-  margin-bottom: 0;
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 0;
-  padding-bottom: 0;
-  padding-left: 0;
-  padding-right: 0;
-  padding-top: 0;
+ 
 }
-.block_7 {
-  display: block;
-  line-height: 1.2;
-  margin-bottom: 0;
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 0;
-  padding-bottom: 0;
-  padding-left: 0;
-  padding-right: 0;
-  padding-top: 0;
-}
-.block_8 {
-  display: block;
 
-  line-height: 1.15;
-  margin-bottom: 0;
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 0;
-  padding-bottom: 0;
-  padding-left: 0;
-  padding-right: 0;
-  padding-top: 0;
-}
-.calibre {
-  display: block;
-  font-family: "Times New Roman", serif;
-
-  margin-bottom: 0;
-  margin-left: 5pt;
-  margin-right: 5pt;
-  margin-top: 0;
-  padding-left: 0;
-  padding-right: 0;
-}
 .calibre1 {
   display: table-row-group;
   vertical-align: middle;
 }
-.calibre2 {
-  line-height: 1.2;
-}
+
 .calibre3 {
   display: block;
   height: 2px;
@@ -426,17 +307,7 @@ export default {
   margin-right: auto;
   margin-top: 0.5em;
 }
-.calibre4 {
-  display: block;
-  margin-bottom: 0;
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 0;
-  padding-bottom: 0;
-  padding-left: 0;
-  padding-right: 0;
-  padding-top: 0;
-}
+
 .calibre5 {
   display: table-row;
   vertical-align: inherit;
@@ -453,7 +324,6 @@ export default {
   width: 100%;
 }
 .td_ {
-  background-color: transparent;
   display: table-cell;
   padding-bottom: 0.5ex;
   padding-left: 0;
@@ -463,39 +333,24 @@ export default {
   vertical-align: top;
 }
 .text_ {
-  font-family: "Times New Roman", serif;
   text-decoration: underline;
 }
 
 .text_2 {
-  font-family: "Times New Roman", serif;
   font-style: italic;
-  line-height: 1.2;
 }
 .text_3 {
   font-weight: bold;
 }
 .text_4 {
   font-weight: bold;
-  font-size: 19px;
 }
-.text_5 {
-  font-family: "Times New Roman", serif;
-}
+
 .text_6 {
-  font-family: "Times New Roman", serif;
-  font-size: 16px;
   font-style: italic;
 }
 .text_7 {
-  font-family: "Times New Roman", serif;
-
   font-style: italic;
-}
-.text_8 {
-  font-family: "Times New Roman", serif;
-
-  line-height: 1.2;
 }
 .tr_ {
   display: table-row;

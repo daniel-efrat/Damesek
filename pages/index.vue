@@ -61,7 +61,7 @@
           :key="`blogNavItem-${b._path}-${i}`"
           >
             <ol class="list-inside list-none">
-              <li class="list-item">
+              <li class="list-item hover:text-orange-400">
                 <NuxtLink :to="`/blog${b._path}`"> {{ b.title }} </NuxtLink>
               </li>
             </ol>

@@ -14,7 +14,6 @@
           <nuxt-link
             class="icon gallery relative"
             to="/gallery"
-            @click="refresh"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -30,7 +29,7 @@
             </svg>
           </nuxt-link>
 
-          <nuxt-link class="icon home relative -ml-10" to="/" @click="refresh">
+          <nuxt-link class="icon home relative -ml-10" to="/" >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
@@ -108,7 +107,8 @@
           </div>
         </div>
         <!-- logo -->
-        <Logo-o class="w-20 relative sm:w-24 -mr-12 mt-2" />
+        <nuxt-link to="/"><Logo-o class="w-20 relative sm:w-24 -mr-12 mt-2" /></nuxt-link>
+
       </div>
     </nav>
     <!-- actual dropdown -->
@@ -188,10 +188,6 @@ export default {
 
       gsap.to(".list", { y: "-125vh", duration: 1 });
     },
-    refresh() {
-      const newPage = this.$nuxt.refresh();
-      setTimeout(newPage, 1500);
-    },
   },
 };
 </script>
@@ -230,7 +226,6 @@ nav {
 .orange {
 	color: #ffa500;
 }
-
 .icon {
 	position: relative;
 	top: 50%;

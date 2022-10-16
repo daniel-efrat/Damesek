@@ -7,9 +7,6 @@
 @tailwind utilities;
 
 
-*{
-	font-family: 'Heebo'
-}
 
 .page-enter-active,
 .page-leave-active {

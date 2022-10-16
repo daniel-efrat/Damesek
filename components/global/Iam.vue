@@ -400,163 +400,29 @@ export default {
 </script>
 
 <style scoped>
-* {
-  font-family: "Times New Roman", Times, serif;
-}
 @page {
   margin-bottom: 5pt;
   margin-top: 5pt;
 }
-
-.block_ {
-  display: block;
-  line-height: 1.15;
-  margin-bottom: 0;
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 0;
-  padding-bottom: 0;
-  padding-left: 0;
-  padding-right: 0;
-  padding-top: 0;
-}
-.block_1 {
-  display: block;
-  line-height: 1.2;
-  margin-bottom: 0;
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 0;
-  padding-bottom: 0;
-  padding-left: 0;
-  padding-right: 0;
-  padding-top: 0;
-  text-decoration: underline;
-}
-.block_2 {
-  display: block;
-  font-family: serif;
-  line-height: 1.15;
-  margin-bottom: 0;
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 0;
-  padding-bottom: 0;
-  padding-left: 0;
-  padding-right: 0;
-  padding-top: 0;
-}
 .block_3 {
-  display: block;
-  margin-bottom: 0;
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 0;
-  padding-bottom: 0;
-  padding-left: 0;
-  padding-right: 0;
-  padding-top: 0;
   text-align: center;
 }
 .block_4 {
-  display: block;
   font-weight: bold;
-  margin-bottom: 0;
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 0;
-  padding-bottom: 0;
-  padding-left: 0;
-  padding-right: 0;
-  padding-top: 0;
   text-align: center;
 }
-.block_5 {
-  display: block;
-  line-height: 1.2;
-  margin-bottom: 0;
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 0;
-  padding-bottom: 0;
-  padding-left: 0;
-  padding-right: 0;
-  padding-top: 0;
-}
 .block_6 {
-  display: block;
   font-style: italic;
-  line-height: 1.2;
-  margin-bottom: 0;
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 0;
-  padding-bottom: 0;
-  padding-left: 0;
-  padding-right: 0;
-  padding-top: 0;
 }
 .block_7 {
-  display: block;
   font-style: italic;
-  line-height: 1.2;
-  margin-bottom: 0;
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 0;
-  padding-bottom: 0;
-  padding-left: 0;
-  padding-right: 0;
-  padding-top: 0;
 }
 .block_8 {
-  display: block;
   font-style: italic;
-  line-height: 1.2;
-  margin-bottom: 0;
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 0;
-  padding-bottom: 0;
-  padding-left: 0;
-  padding-right: 0;
-  padding-top: 0;
-}
-.calibre {
-  display: block;
-  font-family: "Times New Roman", serif;
-  margin-bottom: 0;
-  margin-left: 5pt;
-  margin-right: 5pt;
-  margin-top: 0;
-  padding-left: 0;
-  padding-right: 0;
-}
-.calibre1 {
-  line-height: 1.2;
 }
 .calibre2 {
   display: table-row-group;
   vertical-align: middle;
-}
-.calibre3 {
-  display: block;
-  height: 2px;
-  margin-bottom: 0.5em;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 0.5em;
-}
-.calibre4 {
-  display: block;
-  margin-bottom: 0;
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 0;
-  padding-bottom: 0;
-  padding-left: 0;
-  padding-right: 0;
-  padding-top: 0;
 }
 .table_ {
   border-collapse: collapse;
@@ -570,7 +436,6 @@ export default {
   width: 100%;
 }
 .td_ {
-  background-color: transparent;
   display: table-cell;
   padding-bottom: 0.5ex;
   padding-left: 0;
@@ -579,18 +444,8 @@ export default {
   text-align: inherit;
   vertical-align: top;
 }
-.text_ {
-  font-family: "Arial", serif;
-  font-size: 1em;
-}
 .text_1 {
-  font-family: "Times New Roman", serif;
   font-style: italic;
-  line-height: 1.2;
-}
-.text_2 {
-  font-family: "Times New Roman", serif;
-  line-height: 1.2;
 }
 .tr_ {
   display: table-row;

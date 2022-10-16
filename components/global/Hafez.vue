@@ -600,66 +600,7 @@
             </p>
           </td>
         </tr>
-        <tr class="calibre5">
-          <td class="td_2">
-            <p dir="rtl" class="block_6"><span dir="ltr"></span></p>
-          </td>
-          <td class="td_2">
-            <p dir="rtl" class="block_9">
-              <span dir="ltr" class="calibre2"></span>
-            </p>
-          </td>
-        </tr>
-        <tr class="calibre5">
-          <td class="td_2">
-            <p dir="rtl" class="block_6"><span dir="ltr"></span></p>
-          </td>
-          <td class="td_2">
-            <p dir="rtl" class="block_9">
-              <span dir="ltr" class="calibre2"></span>
-            </p>
-          </td>
-        </tr>
-        <tr class="calibre5">
-          <td class="td_2">
-            <p dir="rtl" class="block_6"><span dir="ltr"></span></p>
-          </td>
-          <td class="td_2">
-            <p dir="rtl" class="block_9">
-              <span dir="ltr" class="calibre2"></span>
-            </p>
-          </td>
-        </tr>
-        <tr class="calibre5">
-          <td class="td_2">
-            <p dir="rtl" class="block_6"><span dir="ltr"></span></p>
-          </td>
-          <td class="td_2">
-            <p dir="rtl" class="block_9">
-              <span dir="ltr" class="calibre2"></span>
-            </p>
-          </td>
-        </tr>
-        <tr class="calibre5">
-          <td class="td_2">
-            <p dir="rtl" class="block_6"><span dir="ltr"></span></p>
-          </td>
-          <td class="td_2">
-            <p dir="rtl" class="block_9">
-              <span dir="ltr" class="calibre2"></span>
-            </p>
-          </td>
-        </tr>
-        <tr class="calibre5">
-          <td class="td_3">
-            <p dir="rtl" class="block_6"><span dir="ltr"></span></p>
-          </td>
-          <td class="td_3">
-            <p dir="rtl" class="block_9">
-              <span dir="ltr" class="calibre2"></span>
-            </p>
-          </td>
-        </tr>
+   
       </tbody>
     </table>
     <img class="thumbnail mt-4 mb-4" src="/images/hafez.png" alt="" />
@@ -671,157 +612,26 @@ export default {
 };
 </script>
 <style scoped>
-* {
-  font-family: "Times New Roman", Times, serif;
-}
 #art {
   mix-blend-mode: color-dodge;
   opacity: 1;
 }
-.block_ {
-  display: block;
-  line-height: 1.5;
-  margin-bottom: 0;
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 0;
-  padding-bottom: 0;
-  padding-left: 0;
-  padding-right: 0;
-  padding-top: 0;
-}
-.block_1 {
-  display: block;
-  line-height: 1.5;
-  margin-bottom: 0;
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 0;
-  padding-bottom: 0;
-  padding-left: 0;
-  padding-right: 0;
-  padding-top: 0;
-}
-.block_2 {
-  display: block;
-  line-height: 1.15;
-  margin-bottom: 0;
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 0;
-  padding-bottom: 0;
-  padding-left: 0;
-  padding-right: 0;
-  padding-top: 0;
-}
+
 .block_3 {
-  display: block;
-  line-height: 1.15;
-  margin-bottom: 0;
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 0;
-  padding-bottom: 0;
-  padding-left: 0;
-  padding-right: 0;
-  padding-top: 0;
+  
   text-align: center;
 }
 .block_4 {
-  display: block;
-  margin-bottom: 0;
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 0;
-  padding-bottom: 0;
-  padding-left: 0;
-  padding-right: 0;
-  padding-top: 0;
+  
   text-align: center;
 }
 .block_5 {
-  display: block;
   font-style: italic;
-  line-height: 1.2;
-  margin-bottom: 0;
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 0;
-  padding-bottom: 0;
-  padding-left: 0;
-  padding-right: 0;
-  padding-top: 0;
 }
-.block_6 {
-  display: block;
-  margin-bottom: 0;
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 0;
-  padding-bottom: 0;
-  padding-left: 0;
-  padding-right: 0;
-  padding-top: 0;
-}
-.block_7 {
-  display: block;
-  margin-bottom: 0;
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 0;
-  padding-bottom: 0;
-  padding-left: 0;
-  padding-right: 0;
-  padding-top: 0;
-}
-.block_8 {
-  display: block;
-  line-height: 1.2;
-  margin-bottom: 0;
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 0;
-  padding-bottom: 0;
-  padding-left: 0;
-  padding-right: 0;
-  padding-top: 0;
-}
-.block_9 {
-  display: block;
-  line-height: 1.15;
-  margin-bottom: 0;
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 0;
-  padding-bottom: 0;
-  padding-left: 0;
-  padding-right: 0;
-  padding-top: 0;
-}
-.calibre {
-  display: block;
-  margin-bottom: 0;
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 0;
-  padding-left: 0;
-  padding-right: 0;
-}
+
 .calibre1 {
   display: table-row-group;
   vertical-align: middle;
-}
-.calibre2 {
-  line-height: 1.2;
-}
-.calibre3 {
-  color: gray;
-  display: block;
-  height: 2px;
-  margin-bottom: 0.5em;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 0.5em;
 }
 .calibre4 {
   display: block;
@@ -840,16 +650,13 @@ export default {
   vertical-align: inherit;
 }
 .calibre6 {
-  line-height: 1.2;
   white-space: pre-wrap;
 }
 .calibre7 {
   font-style: italic;
-  line-height: 1.2;
 }
 .calibre8 {
   font-weight: bold;
-  line-height: 1.2;
 }
 .table_ {
   display: table;
@@ -864,37 +671,13 @@ export default {
   text-indent: 0;
   width: 100%;
 }
-.td_ {
-  background-color: transparent;
-  display: table-cell;
-  padding-bottom: 0.5ex;
-  padding-left: 0;
-  padding-right: 0;
-  padding-top: 0.5ex;
-  text-align: inherit;
-  vertical-align: top;
-}
-.td_1 {
-  background-color: transparent;
-  display: table-cell;
-  padding-bottom: 0.5ex;
-  padding-left: 0;
-  padding-right: 0;
-  padding-top: 0.5ex;
-  text-align: inherit;
-  vertical-align: top;
-}
-.td_2 {
-  background-color: transparent;
-  display: table-cell;
-  padding-bottom: 0.5ex;
-  padding-left: 0;
-  padding-right: 0;
-  padding-top: 0.5ex;
-  text-align: inherit;
-  vertical-align: top;
-}
-.td_3 {
+.td_, 
+.td_1, 
+.td_2, 
+.td_3, 
+.td_4, 
+.td_5 
+ {
   background-color: transparent;
   display: table-cell;
   padding-bottom: 0.5ex;
@@ -908,9 +691,12 @@ export default {
   text-decoration: underline;
 }
 
-.text_2 {
+.text_2, 
+.text_6, 
+.text_5, 
+.text_9 
+ {
   font-style: italic;
-  line-height: 1.2;
 }
 .text_3 {
   font-weight: bold;
@@ -918,41 +704,11 @@ export default {
 .text_4 {
   font-weight: bold;
 }
-.text_5 {
-  font-style: italic;
-}
-.text_6 {
-  font-style: italic;
-}
-.text_7 {
-  line-height: 1.2;
-}
-.text_8 {
-  line-height: 1.2;
-}
-.text_9 {
-  font-style: italic;
-  line-height: 1.2;
-}
-.text_11 {
-  line-height: 1.2;
-}
-.tr_ {
+.tr_, .tr_1 {
   display: table-row;
   min-height: 23pt;
   vertical-align: inherit;
 }
-.tr_1 {
-  display: table-row;
-  min-height: 22pt;
-  vertical-align: inherit;
-}
-
-/* @media only screen and (min-width: 800px) {
-  .calibre4 {
-    min-width: 140px;
-  }
-} */
 
 .page-enter-active,
 .page-leave-active {

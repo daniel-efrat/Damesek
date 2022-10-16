@@ -239,9 +239,6 @@
 </template>
 <script></script>
 <style scoped>
-* {
-  font-family: "Times New Roman", Times, serif;
-}
 @page {
   margin-bottom: 5pt;
   margin-top: 5pt;
